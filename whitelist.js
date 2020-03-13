@@ -26,10 +26,6 @@ Infinite.on("message", message => {
         const mysql = require('mysql'); 
         //Entrando na mysql
         const connection = mysql.createConnection({ //Info da database, para conectar
-          host: '127.0.0.1',
-          user: 'root',
-          password: '',
-          database: 'vrpex'
         });
         connection.connect((err) => {
         });
