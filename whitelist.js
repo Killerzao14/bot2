@@ -67,4 +67,4 @@ Infinite.on("message", message => {
 if(message.channel.type == "dm") return 
 })
 
-Infinite.login("NjM4OTg1MzIxMjI4MjcxNjE2.Xcbw2w.zEDVjMCgOgEHNFMCmVEwGZHGxzk"); //Token do bot
+Infinite.login(""); //Token do bot
